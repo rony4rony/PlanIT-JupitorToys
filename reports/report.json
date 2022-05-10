@@ -1,0 +1,136 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Example Page User Details",
+    "line": 1,
+    "id": "example-page-user-details",
+    "tags": [],
+    "uri": "features\\example_page.feature",
+    "elements": [
+      {
+        "id": "example-page-user-details;the-one-where-user-enters-all-the-details-on-example-page",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "The one where user enters all the details on Example Page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:56"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 13210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "user navigates to the example form page",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1114000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "user enters \"John Doe\" in the name field",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:16"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user selects \"JavaScript API\" as TestCafe Interface",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "user checks the I have tried TestCafe checkbox",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 315000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "user enters \"Good Tool\" in feedback description field",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user clicks on Submit button",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:37"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "\"Welcome John Doe\" message appears",
+            "match": {
+              "location": "features\\step_definitions\\example_page_steps.js:42"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 6234000000,
+              "error_message": "Error: ExternalAssertionLibraryError {\n  code: 'E53',\n  isTestCafeError: true,\n  callsite: CallsiteRecord {\n    filename: 'C:\\\\Ronald_Projects\\\\JupiterToys-PlanIT\\\\features\\\\step_definitions\\\\example_page_steps.js',\n    lineNum: 43,\n    callsiteFrameIdx: 5,\n    stackFrames: [ [Object], [Object], [Object], [Object], [Object], [Object] ],\n    isV8Frames: true\n  },\n  errMsg: \"AssertionError: expected 'Thank you, John Doe!' to include 'Welcome John Doe'\",\n  diff: false,\n  id: 'qpWXg-r'\n}\n    at C:\\Ronald_Projects\\JupiterToys-PlanIT\\node_modules\\cucumber\\lib\\user_code_runner.js:95:19\n    at Generator.throw (<anonymous>)\n    at asyncGeneratorStep (C:\\Ronald_Projects\\JupiterToys-PlanIT\\node_modules\\cucumber\\lib\\user_code_runner.js:18:103)\n    at _throw (C:\\Ronald_Projects\\JupiterToys-PlanIT\\node_modules\\cucumber\\lib\\user_code_runner.js:20:291)"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "features\\support\\hooks.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

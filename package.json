@@ -1,0 +1,10 @@
+{
+    "name": "integrate-testcafe-cucumber",
+    "description": "An integration of TestCafe and Cucumber-JS",
+    "dependencies": {
+        "cucumber": "^5.1.0",
+        "cucumber-html-reporter": "^2.0.3",
+        "npm": "^6.0.0",
+        "testcafe": "^1.1.0"
+    }
+}
