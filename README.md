@@ -1,11 +1,7 @@
 # How to set-up and execute the project
 
-1. Clone Repo and install dependencies
-```
-  git clone https://github.com/omgitsfrancis/testcafe-demo/
-```
+1. Clone Repo
 2. Open the project in an editor like VSCode
-
 3. Open the Terminal and install NPM
 ```
   npm install
